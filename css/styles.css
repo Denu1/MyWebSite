@@ -21,6 +21,18 @@ body {
 }
 
 
+.heading{
+    font-size: 4rem !important;
+    /*background-color: #1FFFF2;*/
+
+}
+
+.heading2{
+    font-size: 3rem !important;
+}
+
+
+
 .cursor {
     width: 48px;
     height: 48px;
@@ -120,6 +132,15 @@ body {
     text-transform: uppercase;
     font-size: 6rem;
     font-weight: 900;
+}
+
+.stylish-heading{
+    background: linear-gradient(90deg,#1FFFF2 0%,#24B64D 85%);
+    /*background: linear-gradient(90deg,#8337FF 0%,#E87421 85%);*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .heading-stroke-only {
